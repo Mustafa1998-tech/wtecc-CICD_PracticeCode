@@ -1,0 +1,14 @@
+
+
+
+
+nano .github/workflows/workflow.yml
+nano .github/workflows/workflow.yml
+
+name: CI workflow
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
